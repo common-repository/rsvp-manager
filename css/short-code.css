@@ -1,0 +1,62 @@
+.rsvp_submit {
+    margin-top: 15px !important;
+}
+
+.input_label {
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+
+.search-results-table {
+    margin-top: 30px;
+}
+
+.search_result td {
+    vertical-align: middle;
+}
+
+.search_result_confirmation_cell {
+    text-align: end;
+}
+
+.search-results-table td, .search-results-table th {
+    padding: 15px;
+    line-height: 1.5;
+    border: none;
+}
+
+.welcome_label {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.rsvp_question {
+    margin-top: 15px;
+    font-size: 18px;   
+}
+
+.rsvp_answer_radio_label {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+    margin-top: 7px;
+}
+
+.rsvp-label {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 17px; 
+}
+
+.rsvp_confirmation_message {
+    font-size: 18px;
+}
+
+.form_error {
+    margin-top: 20px;
+}

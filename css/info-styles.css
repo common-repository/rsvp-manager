@@ -1,0 +1,19 @@
+.paypal_donate {
+    background: rgb(255, 209, 64);
+    border: 0.125rem solid rgb(255, 209, 64);
+    color: rgb(0, 48, 135);
+    font-family: PayPalOpen-Bold, "Helvetica Neue", Arial, sans-serif;
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+    border-radius: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.paypal_donate:hover {
+    background: rgb(255, 232, 136);
+    border: 0.125rem solid rgb(255, 232, 136);
+}

@@ -1,0 +1,49 @@
+.attendees-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.attendees-list, .related-attendees-list {
+    width: 45%;
+}
+
+.attendees-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    margin: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: 1px solid #8c8f94;
+    border-radius: 5px;
+}
+
+.attendees-container ul li {
+    padding: 5px;
+    margin: 0;
+}
+
+.attendees-container ul li:hover {
+    background-color: #dddddd;
+}
+
+#all-attendees, #related-attendees {
+    border: 1px solid #8c8f94;
+    border-radius: 5px;
+    background-color: white;
+    min-height: 250px;
+    overflow: hidden; 
+}
+
+.attendees-list ul li.selected, .related-attendees-list ul li.selected {
+    background-color: #cfcfcf;
+}
+
+.mutual_association_container {
+    margin-top: 15px;
+}

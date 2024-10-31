@@ -1,0 +1,38 @@
+.form-table th {
+    text-align: left;
+    width: 15%;
+    word-wrap: break-word;
+}
+
+.form-table td {
+    width: auto;
+}
+
+.form-table input[type="text"] {
+    width: 100%;
+}
+
+.form-table textarea {
+    width: 100%;
+    line-height: 1.2;
+}
+.form-table input[type="datetime-local"] {
+    width: auto;
+}
+
+.form-table th.form-table-section-title {
+    text-align: left;
+    font-size: 18px;
+}
+
+.vertical-separator {
+    color: #43434343;
+}
+
+a.submitdelete {
+    color: #e63946;
+}
+
+p.text_default_value {
+    font-size: 12px !important;
+}
